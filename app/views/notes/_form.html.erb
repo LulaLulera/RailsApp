@@ -6,6 +6,9 @@
       <ul>
         <% note.errors.each do |error| %>
           <li><%= error.full_message %></li>
+          <p class="notice"><%= notice %></p>
+          <p class="alert"><%= alert %></p>
+
         <% end %>
       </ul>
     </div>
