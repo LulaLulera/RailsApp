@@ -3,9 +3,9 @@ class Note < ApplicationRecord
 
     def self.main_columns
         %i(
-           title
-           text
-           user
-           )
-        end
+            title
+            text
+            user
+            )
+    end
 end
