@@ -22,9 +22,6 @@ class NotesController < ApplicationController
 
   # POST /notes or /notes.json
   def create
-    puts "================="
-    puts  current_user.email
-    puts "================="
     @note = Note.new(note_params)
     @note.user = current_user.email
     respond_to do |format|
