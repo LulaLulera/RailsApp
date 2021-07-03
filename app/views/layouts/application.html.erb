@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <% if user_signed_in? %>
+        <%= link_to "Cerrar Sesión", destroy_user_session_path, method: :delete%>
+      <%else%>
+        <%= link_to "Iniciar Sesión", new_user_session_path%>
+        <%= link_to "Registrarse", new_user_registration_path%>
+    <%end%>
     <%= yield %>
   </body>
 </html>

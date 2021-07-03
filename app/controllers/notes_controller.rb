@@ -1,5 +1,6 @@
 class NotesController < ApplicationController
   before_action :set_note, only: %i[ show edit update destroy ]
+  before_action :authenticate_user!
 
   # GET /notes or /notes.json
   def index
@@ -22,9 +23,10 @@ class NotesController < ApplicationController
   # POST /notes or /notes.json
   def create
     @note = Note.new(note_params)
-
+    @note.user = current_user.email
     respond_to do |format|
       if @note.save
+        flash[:alert] = "Note created"
         format.html { redirect_to @note, notice: "Note was successfully created." }
         format.json { render :show, status: :created, location: @note }
       else
@@ -64,6 +66,6 @@ class NotesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def note_params
-      params.require(:note).permit(:Title, :text, :user)
+      params.require(:note).permit(:title, :text, :user)
     end
 end
