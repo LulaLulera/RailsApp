@@ -2989,3 +2989,695 @@ Processing by NotesController#index as HTML
 Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.1ms | Allocations: 8714)
 
 
+Started GET "/" for ::1 at 2021-08-25 19:33:23 +0200
+Processing by NotesController#index as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1046)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 7318)
+Completed 200 OK in 27ms (Views: 21.3ms | ActiveRecord: 0.4ms | Allocations: 9807)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:33:25 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1029)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 7222)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.1ms | Allocations: 8703)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:33:29 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 7842)
+Completed 200 OK in 23ms (Views: 16.5ms | ActiveRecord: 0.1ms | Allocations: 10132)
+
+
+Started POST "/notes/new" for ::1 at 2021-08-25 19:33:34 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/notes/new"):
+  
+Started GET "/" for ::1 at 2021-08-25 19:33:39 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1109)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 7390)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.1ms | Allocations: 8872)
+
+
+Started POST "/notes/1" for ::1 at 2021-08-25 19:33:40 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/notes/1"):
+  
+Started GET "/" for ::1 at 2021-08-25 19:33:42 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 7381)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.1ms | Allocations: 8863)
+
+
+Started POST "/notes/1/edit" for ::1 at 2021-08-25 19:33:43 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/notes/1/edit"):
+  
+Started GET "/" for ::1 at 2021-08-25 19:33:44 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 7381)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.1ms | Allocations: 8862)
+
+
+Started POST "/notes/new" for ::1 at 2021-08-25 19:34:04 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/notes/new"):
+  
+Started GET "/" for ::1 at 2021-08-25 19:35:46 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 28.0ms | Allocations: 4413)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 114.0ms | Allocations: 29188)
+Completed 200 OK in 142ms (Views: 115.4ms | ActiveRecord: 0.9ms | Allocations: 38624)
+
+
+Started POST "/notes/1/edit" for ::1 at 2021-08-25 19:35:48 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/notes/1/edit"):
+  
+Started GET "/" for ::1 at 2021-08-25 19:36:57 +0200
+Processing by NotesController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 3868)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 10448)
+Completed 200 OK in 49ms (Views: 31.3ms | ActiveRecord: 1.3ms | Allocations: 17918)
+
+
+Started POST "/notes/1" for ::1 at 2021-08-25 19:36:59 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/notes/1"):
+  
+Started GET "/" for ::1 at 2021-08-25 19:37:01 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 7296)
+Completed 200 OK in 36ms (Views: 32.5ms | ActiveRecord: 0.1ms | Allocations: 8797)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:39:07 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1316)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 7685)
+Completed 200 OK in 28ms (Views: 24.8ms | ActiveRecord: 0.1ms | Allocations: 9974)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:39:20 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1247)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 7617)
+Completed 200 OK in 21ms (Views: 17.9ms | ActiveRecord: 0.2ms | Allocations: 9902)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-25 19:39:21 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.2ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 7097)
+Completed 200 OK in 26ms (Views: 20.7ms | ActiveRecord: 0.2ms | Allocations: 9381)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:39:32 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 7479)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.1ms | Allocations: 9782)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-25 19:39:34 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 284)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 7127)
+Completed 200 OK in 32ms (Views: 27.3ms | ActiveRecord: 0.2ms | Allocations: 9277)
+
+
+Started GET "/notes/1/edit" for ::1 at 2021-08-25 19:39:36 +0200
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/edit.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 15.5ms | Allocations: 8033)
+  Rendered notes/edit.html.erb within layouts/application (Duration: 25.3ms | Allocations: 9030)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 15125)
+Completed 200 OK in 52ms (Views: 46.8ms | ActiveRecord: 0.1ms | Allocations: 17271)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:39:56 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 24.1ms | Allocations: 1108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.9ms | Allocations: 7513)
+Completed 200 OK in 63ms (Views: 51.2ms | ActiveRecord: 0.2ms | Allocations: 9802)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:39:56 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 836)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 7030)
+Completed 200 OK in 21ms (Views: 16.9ms | ActiveRecord: 0.1ms | Allocations: 8512)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:40:25 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 7476)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.1ms | Allocations: 9759)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:41:13 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 836)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2852.2ms | Allocations: 62201)
+Completed 200 OK in 2864ms (Views: 2854.4ms | ActiveRecord: 0.2ms | Allocations: 63684)
+
+
+Started GET "/" for ::1 at 2021-08-25 19:41:30 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2219.3ms | Allocations: 61988)
+Completed 200 OK in 2227ms (Views: 2221.7ms | ActiveRecord: 0.1ms | Allocations: 63471)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:41:41 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 4.0ms | Allocations: 1035)
+  Rendered notes/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1385)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 7667)
+Completed 200 OK in 33ms (Views: 27.6ms | ActiveRecord: 0.1ms | Allocations: 9289)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:41:44 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 832)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 7637)
+Completed 200 OK in 49ms (Views: 43.7ms | ActiveRecord: 0.1ms | Allocations: 9121)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:43:00 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 1.8ms | Allocations: 673)
+  Rendered notes/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 780)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 6973)
+Completed 200 OK in 33ms (Views: 28.8ms | ActiveRecord: 0.1ms | Allocations: 8459)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:44:55 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 1.6ms | Allocations: 1002)
+  Rendered notes/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1341)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 7711)
+Completed 200 OK in 47ms (Views: 42.3ms | ActiveRecord: 0.1ms | Allocations: 9998)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:46:11 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 2.9ms | Allocations: 1002)
+  Rendered notes/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1353)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 7722)
+Completed 200 OK in 29ms (Views: 25.8ms | ActiveRecord: 0.1ms | Allocations: 10009)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:46:23 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 2.9ms | Allocations: 1002)
+  Rendered notes/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1349)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 7719)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.1ms | Allocations: 10001)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:46:47 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 8.4ms | Allocations: 1003)
+  Rendered notes/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1349)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 7724)
+Completed 200 OK in 32ms (Views: 28.5ms | ActiveRecord: 0.1ms | Allocations: 10005)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:47:23 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 1.2ms | Allocations: 1010)
+  Rendered notes/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1356)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 7812)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.1ms | Allocations: 10093)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:47:24 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 1.0ms | Allocations: 684)
+  Rendered notes/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 797)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 7030)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.1ms | Allocations: 8515)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:47:45 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1107)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 8107)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.1ms | Allocations: 10401)
+
+
+Started GET "/notes/new" for ::1 at 2021-08-25 19:47:46 +0200
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/new.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 1.3ms | Allocations: 1002)
+  Rendered notes/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1350)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 7544)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.1ms | Allocations: 9157)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:47:48 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 832)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 7033)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.1ms | Allocations: 8518)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-25 19:47:50 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 290)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6487)
+Completed 200 OK in 22ms (Views: 17.5ms | ActiveRecord: 0.1ms | Allocations: 8636)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-25 19:48:50 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 299)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 6707)
+Completed 200 OK in 26ms (Views: 19.7ms | ActiveRecord: 0.1ms | Allocations: 9531)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-25 19:48:59 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 303)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 6767)
+Completed 200 OK in 29ms (Views: 23.3ms | ActiveRecord: 0.1ms | Allocations: 9593)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:49:05 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 7303)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 0.1ms | Allocations: 8917)
+
+
+Started GET "/notes/1/edit" for ::1 at 2021-08-25 19:49:06 +0200
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/edit.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 4.2ms | Allocations: 1033)
+  Rendered notes/edit.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1419)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 8223)
+Completed 200 OK in 32ms (Views: 25.1ms | ActiveRecord: 0.1ms | Allocations: 10370)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:49:34 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 830)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 7037)
+Completed 200 OK in 21ms (Views: 18.5ms | ActiveRecord: 0.2ms | Allocations: 8522)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-25 19:49:44 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 300)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6719)
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 0.1ms | Allocations: 9547)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:49:45 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 23.3ms | Allocations: 7389)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.1ms | Allocations: 9003)
+
+
+Started GET "/notes/1/edit" for ::1 at 2021-08-25 19:49:46 +0200
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.2ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/edit.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 6.5ms | Allocations: 1033)
+  Rendered notes/edit.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1439)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 7727)
+Completed 200 OK in 32ms (Views: 24.0ms | ActiveRecord: 0.2ms | Allocations: 9876)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:49:49 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 830)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 7025)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.2ms | Allocations: 8510)
+
+
+Started GET "/notes/1/edit" for ::1 at 2021-08-25 19:50:11 +0200
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/edit.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 1.0ms | Allocations: 704)
+  Rendered notes/edit.html.erb within layouts/application (Duration: 3.7ms | Allocations: 847)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 7040)
+Completed 200 OK in 23ms (Views: 16.8ms | ActiveRecord: 0.8ms | Allocations: 9060)
+
+
+Started PATCH "/notes/1" for ::1 at 2021-08-25 19:50:13 +0200
+Processing by NotesController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "note"=>{"title"=>"werw", "text"=>"werwj"}, "commit"=>"Update Note", "id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/notes_controller.rb:35:in `block in update'
+  [1m[36mNote Update (3.6ms)[0m  [1m[33mUPDATE "notes" SET "text" = ?, "updated_at" = ? WHERE "notes"."id" = ?[0m  [["text", "werwj"], ["updated_at", "2021-08-25 17:50:13.938954"], ["id", 1]]
+  ↳ app/controllers/notes_controller.rb:35:in `block in update'
+  [1m[36mTRANSACTION (7.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/notes_controller.rb:35:in `block in update'
+Redirected to http://localhost:3000/notes/1
+Completed 302 Found in 26ms (ActiveRecord: 11.1ms | Allocations: 6538)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-25 19:50:13 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 6316)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.1ms | Allocations: 8342)
+
+
+Started GET "/notes" for ::1 at 2021-08-25 19:50:15 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.0ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 7715)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.1ms | Allocations: 9199)
+
+
+Started GET "/notes/1" for ::1 at 2021-08-26 15:26:19 +0200
+Processing by NotesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/show.html.erb within layouts/application
+  Rendered notes/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 113)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 6401)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 0.4ms | Allocations: 9054)
+
+
+Started GET "/notes" for ::1 at 2021-08-26 15:26:21 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 844)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 7038)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.2ms | Allocations: 8521)
+
+
+Started GET "/notes/1/edit" for ::1 at 2021-08-26 15:26:21 +0200
+Processing by NotesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mNote Load (0.1ms)[0m  [1m[34mSELECT "notes".* FROM "notes" WHERE "notes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/notes_controller.rb:53:in `set_note'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/edit.html.erb within layouts/application
+  Rendered notes/_form.html.erb (Duration: 1.0ms | Allocations: 704)
+  Rendered notes/edit.html.erb within layouts/application (Duration: 3.8ms | Allocations: 847)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 7046)
+Completed 200 OK in 39ms (Views: 32.6ms | ActiveRecord: 0.1ms | Allocations: 9067)
+
+
+Started GET "/notes" for ::1 at 2021-08-26 15:26:23 +0200
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering notes/index.html.erb within layouts/application
+  [1m[36mNote Load (0.0ms)[0m  [1m[34mSELECT "notes".* FROM "notes"[0m
+  ↳ app/views/notes/index.html.erb:15
+  Rendered notes/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 827)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 7022)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.1ms | Allocations: 8505)
+
+
